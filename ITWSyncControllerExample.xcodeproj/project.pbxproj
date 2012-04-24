@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E72FCF8515471B140014713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72FCF8415471B140014713E /* UIKit.framework */; };
+		E72FCF8715471B140014713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72FCF8615471B140014713E /* Foundation.framework */; };
+		E72FCF8915471B140014713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72FCF8815471B140014713E /* CoreGraphics.framework */; };
+		E72FCF8F15471B140014713E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E72FCF8D15471B140014713E /* InfoPlist.strings */; };
+		E72FCF9115471B140014713E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E72FCF9015471B140014713E /* main.m */; };
+		E72FCF9515471B140014713E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E72FCF9415471B140014713E /* AppDelegate.m */; };
+		E72FCF9815471B140014713E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72FCF9715471B140014713E /* ViewController.m */; };
+		E72FCF9B15471B140014713E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72FCF9915471B140014713E /* ViewController.xib */; };
+		E72FCFA415471B7C0014713E /* ITWSyncController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72FCFA315471B7C0014713E /* ITWSyncController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E72FCF8015471B140014713E /* ITWSyncControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITWSyncControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72FCF8415471B140014713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E72FCF8615471B140014713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E72FCF8815471B140014713E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E72FCF8C15471B140014713E /* ITWSyncControllerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITWSyncControllerExample-Info.plist"; sourceTree = "<group>"; };
+		E72FCF8E15471B140014713E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E72FCF9015471B140014713E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E72FCF9215471B140014713E /* ITWSyncControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ITWSyncControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		E72FCF9315471B140014713E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E72FCF9415471B140014713E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E72FCF9615471B140014713E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E72FCF9715471B140014713E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E72FCF9A15471B140014713E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E72FCFA215471B7C0014713E /* ITWSyncController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITWSyncController.h; sourceTree = "<group>"; };
+		E72FCFA315471B7C0014713E /* ITWSyncController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITWSyncController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E72FCF7D15471B140014713E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72FCF8515471B140014713E /* UIKit.framework in Frameworks */,
+				E72FCF8715471B140014713E /* Foundation.framework in Frameworks */,
+				E72FCF8915471B140014713E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E72FCF7515471B140014713E = {
+			isa = PBXGroup;
+			children = (
+				E72FCFA115471B7C0014713E /* ITWSyncController */,
+				E72FCF8A15471B140014713E /* ITWSyncControllerExample */,
+				E72FCF8315471B140014713E /* Frameworks */,
+				E72FCF8115471B140014713E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E72FCF8115471B140014713E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E72FCF8015471B140014713E /* ITWSyncControllerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E72FCF8315471B140014713E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E72FCF8415471B140014713E /* UIKit.framework */,
+				E72FCF8615471B140014713E /* Foundation.framework */,
+				E72FCF8815471B140014713E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72FCF8A15471B140014713E /* ITWSyncControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				E72FCF9315471B140014713E /* AppDelegate.h */,
+				E72FCF9415471B140014713E /* AppDelegate.m */,
+				E72FCF9615471B140014713E /* ViewController.h */,
+				E72FCF9715471B140014713E /* ViewController.m */,
+				E72FCF9915471B140014713E /* ViewController.xib */,
+				E72FCF8B15471B140014713E /* Supporting Files */,
+			);
+			path = ITWSyncControllerExample;
+			sourceTree = "<group>";
+		};
+		E72FCF8B15471B140014713E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E72FCF8C15471B140014713E /* ITWSyncControllerExample-Info.plist */,
+				E72FCF8D15471B140014713E /* InfoPlist.strings */,
+				E72FCF9015471B140014713E /* main.m */,
+				E72FCF9215471B140014713E /* ITWSyncControllerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E72FCFA115471B7C0014713E /* ITWSyncController */ = {
+			isa = PBXGroup;
+			children = (
+				E72FCFA215471B7C0014713E /* ITWSyncController.h */,
+				E72FCFA315471B7C0014713E /* ITWSyncController.m */,
+			);
+			path = ITWSyncController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E72FCF7F15471B140014713E /* ITWSyncControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72FCF9E15471B140014713E /* Build configuration list for PBXNativeTarget "ITWSyncControllerExample" */;
+			buildPhases = (
+				E72FCF7C15471B140014713E /* Sources */,
+				E72FCF7D15471B140014713E /* Frameworks */,
+				E72FCF7E15471B140014713E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITWSyncControllerExample;
+			productName = ITWSyncControllerExample;
+			productReference = E72FCF8015471B140014713E /* ITWSyncControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E72FCF7715471B140014713E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E72FCF7A15471B140014713E /* Build configuration list for PBXProject "ITWSyncControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E72FCF7515471B140014713E;
+			productRefGroup = E72FCF8115471B140014713E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E72FCF7F15471B140014713E /* ITWSyncControllerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E72FCF7E15471B140014713E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72FCF8F15471B140014713E /* InfoPlist.strings in Resources */,
+				E72FCF9B15471B140014713E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E72FCF7C15471B140014713E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72FCF9115471B140014713E /* main.m in Sources */,
+				E72FCF9515471B140014713E /* AppDelegate.m in Sources */,
+				E72FCF9815471B140014713E /* ViewController.m in Sources */,
+				E72FCFA415471B7C0014713E /* ITWSyncController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E72FCF8D15471B140014713E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E72FCF8E15471B140014713E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E72FCF9915471B140014713E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E72FCF9A15471B140014713E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E72FCF9C15471B140014713E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E72FCF9D15471B140014713E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E72FCF9F15471B140014713E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ITWSyncControllerExample/ITWSyncControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "ITWSyncControllerExample/ITWSyncControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E72FCFA015471B140014713E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ITWSyncControllerExample/ITWSyncControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "ITWSyncControllerExample/ITWSyncControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E72FCF7A15471B140014713E /* Build configuration list for PBXProject "ITWSyncControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72FCF9C15471B140014713E /* Debug */,
+				E72FCF9D15471B140014713E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E72FCF9E15471B140014713E /* Build configuration list for PBXNativeTarget "ITWSyncControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72FCF9F15471B140014713E /* Debug */,
+				E72FCFA015471B140014713E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E72FCF7715471B140014713E /* Project object */;
+}
